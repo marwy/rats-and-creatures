@@ -5,7 +5,8 @@
 	"name": "rats and creatures",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Rnbonnie"
+		"Rnbonnie",
+		"marwy"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
