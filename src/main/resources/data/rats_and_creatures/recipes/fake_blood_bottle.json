@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "R",
+    "P"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spider_eye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "P": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "rats_and_creatures:fake_blood_bottle",
+    "count": 1
+  }
+}

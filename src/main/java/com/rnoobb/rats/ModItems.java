@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item CHEESE = registerItem("cheese", new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.3f).build())));
+    public static final Item FAKE_BLOOD_BOTTLE = registerItem("fake_blood_bottle", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RatsAndCreatures.MOD_ID, name), item);
@@ -22,6 +23,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(content -> {
             content.add(CHEESE);
+            content.add(FAKE_BLOOD_BOTTLE);
         });
     }
 }
